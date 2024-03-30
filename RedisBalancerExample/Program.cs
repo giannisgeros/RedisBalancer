@@ -79,12 +79,12 @@ namespace RedisBalancerExample
 					services.AddRedisBalancer(
 						options,
 						serviceProvider => serviceProvider.GetRequiredService<IITemsProvider<Item>>()
-						//serviceProvider =>
-						//{
-						//	var loggerFactory = serviceProvider.GetRequiredService<ILoggerFactory>();
+						serviceProvider =>
+						{
+							var loggerFactory = serviceProvider.GetRequiredService<ILoggerFactory>();
 
-						//	return loggerFactory.CreateLogger($"Instance-{_name}-Balancer");
-						//}
+							return loggerFactory.CreateLogger($"Instance-{_name}-Balancer");
+						}
 					);
 				});
 	}
