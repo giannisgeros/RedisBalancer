@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisBalancer", "RedisBalancer\RedisBalancer.csproj", "{C6FCB8F7-8EF5-4AEE-9C41-FD89228FFA4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisBalancerExample", "RedisBalancerExample\RedisBalancerExample.csproj", "{15BF206A-6CD6-48AF-A61C-B1C0B88E0416}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisBalancerTests", "RedisBalancerTests\RedisBalancerTests.csproj", "{4CA9135D-2587-41B1-B4FB-CC8E9BCE80EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6FCB8F7-8EF5-4AEE-9C41-FD89228FFA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6FCB8F7-8EF5-4AEE-9C41-FD89228FFA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6FCB8F7-8EF5-4AEE-9C41-FD89228FFA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6FCB8F7-8EF5-4AEE-9C41-FD89228FFA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BF206A-6CD6-48AF-A61C-B1C0B88E0416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BF206A-6CD6-48AF-A61C-B1C0B88E0416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BF206A-6CD6-48AF-A61C-B1C0B88E0416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BF206A-6CD6-48AF-A61C-B1C0B88E0416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA9135D-2587-41B1-B4FB-CC8E9BCE80EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA9135D-2587-41B1-B4FB-CC8E9BCE80EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA9135D-2587-41B1-B4FB-CC8E9BCE80EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA9135D-2587-41B1-B4FB-CC8E9BCE80EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36BD385A-3295-41E1-8D0F-812D11F298F8}
+	EndGlobalSection
+EndGlobal
