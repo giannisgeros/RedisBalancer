@@ -78,7 +78,7 @@ namespace RedisBalancerExample
 
 					services.AddRedisBalancer(
 						options,
-						serviceProvider => serviceProvider.GetRequiredService<IITemsProvider<Item>>()
+						serviceProvider => serviceProvider.GetRequiredService<IITemsProvider<Item>>(),
 						serviceProvider =>
 						{
 							var loggerFactory = serviceProvider.GetRequiredService<ILoggerFactory>();
